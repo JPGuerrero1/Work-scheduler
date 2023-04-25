@@ -3,23 +3,23 @@
  
   $(function () {
 
-    var hour = dayjs().format('H');
+    var hourNow = dayjs().format('H');
  
     function blockColor() {
       $('.time-block').each(function() {
         var sectionTime = parseInt(this.id);
-        $(this).toggleClass('past', sectionTime < hour);
-        $(this).toggleClass('present', sectionTime === hour);
-        $(this).toggleClass('future', sectionTime > hour);
+        $(this).toggleClass('past', sectionTime < hourNow);
+        $(this).toggleClass('present', sectionTime === hourNow);
+        $(this).toggleClass('future', sectionTime > hourNow);
       });
     }
 
     function setColor() {
       $('.time-block').each(function() {
         var sectionTime = parseInt(this.id);
-        if (sectionTime == hour) {
+        if (sectionTime == hourNow) {
           $(this).removeClass('past future').addClass('present');
-        } else if (sectionTime < hour) {
+        } else if (sectionTime < hourNow) {
           $(this).removeClass('future present').addClass('past');
         } else {
           $(this).removeClass('past present').addClass('future');
@@ -47,8 +47,9 @@
       $(this).children('.description').val(value);
     });
   
-    setColor();
+   
     blockColor();
+    setColor();
     enterText();                
   
     setInterval(updateTime, 1000);
