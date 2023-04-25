@@ -47,8 +47,8 @@
       $(this).children('.description').val(value);
     });
   
-    setColor();
     blockColor();
+    setColor();
     enterText();                
   
     setInterval(updateTime, 1000);
