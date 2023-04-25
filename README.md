@@ -20,9 +20,9 @@ This project helps teach developers unfamiliar with third party APIs and the pro
 
 ## Preview
 
+![Screenshot (8)](https://user-images.githubusercontent.com/95624362/234168600-1b7ebfb9-941d-4062-88da-b91b80e786be.png)
 
-
-Deployed link: 
+Deployed link: https://jpguerrero1.github.io/Work-scheduler/
 
 ## License
 
