@@ -27,3 +27,8 @@ Deployed link: https://jpguerrero1.github.io/Work-scheduler/
 ## License
 
 MIT License
+
+## References
+
+* https://github.com/coding-boot-camp/crispy-octo-meme
+* https://day.js.org/docs/en/parse/string-format
