@@ -31,4 +31,4 @@ MIT License
 ## References
 
 * https://github.com/coding-boot-camp/crispy-octo-meme
-* https://day.js.org/docs/en/parse/string-format
+* https://day.js.org/
