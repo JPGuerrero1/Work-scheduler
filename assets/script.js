@@ -47,7 +47,6 @@
       $(this).children('.description').val(value);
     });
   
-   
     blockColor();
     setColor();
     enterText();                
