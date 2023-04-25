@@ -13,7 +13,7 @@
         $(this).toggleClass('future', sectionTime > hourNow);
       });
     }
-
+    
     function setColor() {
       $('.time-block').each(function() {
         var sectionTime = parseInt(this.id);
